@@ -84,6 +84,10 @@
       <HintPath>E:\OneDrive\04 程序开发\31JTLT_Pro\02 Debug\Plugins\3DGIS\Bin_x64\GSToolTipDotNet.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="libChoCommonHelperNET45">
+      <HintPath>E:\OneDrive\04 程序开发\31JTLT_Pro\02 Debug\libs\libChoCommonHelperNET45.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="MainHost">
       <HintPath>E:\OneDrive\04 程序开发\31JTLT_Pro\02 Debug\libs\MainHost.dll</HintPath>
       <Private>False</Private>
@@ -119,6 +123,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AssemblyReference.cs" />
     <Compile Include="Commands\MyCommandExt.cs" />
     <Compile Include="DataAccessMgr.cs" />
     <Compile Include="FrmChildForm.cs">
